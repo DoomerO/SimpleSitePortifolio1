@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #00000090;
+    font-family: 'Encode Sans';
+    src: url('../fonts/EncodeSans.ttf');
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+    box-shadow: 0px 3px 3px #00000050;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+#headerTop {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.logoDiv {
+    display: flex;
+    direction: row;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    padding-left: 3vw;
+}
+
+.logoDiv img {
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.logoText {
+    display: flex;
+    height: 100%;
+    padding-top: 10%;
+    flex-direction: column;
+    align-items: start;
+}
+
+.logoTextTop {
+    color: #E69900;
+    font-size: 19pt;
+    font-family: 'Racing Sans One';
+    src: url('../fonts/RacingSansOne.ttf');
+}
+
+.logoTextBottom {
+    font-size: 16pt;
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+}
+
+#headerBottom {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: #00000090 1px solid;
+    border-top: #00000090 1px solid;
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    align-items: center;
+    padding-left: 3vw;
+}
+
+#headerBottom p {
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    margin-right: 3px;
+    font-size: 12pt;
+}
+
+.linkWhatsapp1 {
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    background-color: #E69900;
+    color: #fff;
+    padding: 3px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 12pt;
+    transition: all 0.2s ease-out;
+}
+
+.linkWhatsapp1:hover {
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    background-color: #D68900;
+    color: #eee;
+    padding: 3px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#blank {
+    height : 22vh;
+    width : 100%;
+}
+
+.sectionLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 60vh;
+    width: 100%;
+}
+
+.sectionLeft img{
+    height: 80%;
+    width: 36%;
+    object-fit: cover;
+    border-radius: 40px;
+    border-right: 6px #E69900 solid;
+    border-bottom: 6px #E69900 solid;
+}
+
+.sectionLeftText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.sectionLeftTitle {
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    font-size: 25pt;
+    margin-left: 2vw;
+    width: 70%;
+    padding-bottom: 3px;
+    border-bottom: 5px #E69900 solid;
+}
+
+.sectionLeftMsg {
+    margin-top: 2vh;
+    font-size: 20pt;
+    margin-left: 1.8vw;
+    width: 90%;
+    text-align: left;
+}
+
+.sectionRight {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.sectionRight img{
+    height: 80%;
+    width: 36%;
+    object-fit: cover;
+    border-radius: 40px;
+    border-left: 6px #E69900 solid;
+    border-bottom: 6px #E69900 solid;
+}
+
+.sectionRightText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    padding-top: 5%;
+    margin-right: 2%;
+}
+
+.sectionRightTitle {
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+    font-size: 25pt;
+    margin-left: 30%;
+    padding-bottom: 3px;
+    width: 70%;
+    float: right;
+    text-align: right;
+    border-bottom: 5px #E69900 solid;
+}
+
+.sectionRightMsg {
+    margin-left: 10%;
+    margin-top: 2vh;
+    font-size: 20pt;
+    width: 90%;
+    text-align: right;
+    float: right;
+}
+
+footer {
+    height: 37vh;
+    display: flex;
+    direction: row;
+    background-color: #E69900;
+}
+
+#usefullLinks {
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 3vh;
+}
+
+#usefullLinksTitle{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 3px;
+    font-size: 12pt;
+}
+
+.linkFooter {
+    color: #fff;
+    font-size: 12pt;
+    transition: all 0.3s ease-out;
+}
+
+.linkFooter:hover {
+    color: #ddd;
+    font-size: 12pt;
+}
+
+footer .logoDiv img {
+    height: 85%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+footer .logoText {
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    align-items: start;
+}
+
+footer .logoTextTop {
+    color: #fff;
+    font-size: 26pt;
+    font-family: 'Racing Sans One';
+    src: url('../fonts/RacingSansOne.ttf');
+}
+
+footer .logoTextBottom {
+    color: #fff;
+    font-size: 23pt;
+    font-family: 'Sansita One';
+    src: url('../fonts/SansitaOne.ttf');
+}
